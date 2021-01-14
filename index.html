@@ -8,20 +8,20 @@
   </head>
   <body>
     <nav>
-      <ul class="list">
-        <li><a href="#welcome-section">Home Page</a></li>
-        <li><a href="#welcome-section">Information</a></li>
-        <li><a href="#welcome-section">Poducts</a></li>
-        <li><a href="#welcome-section">Satisfied Clients</a></li>
+      <ul class="nav-list">
+        <li><a class="a-nav" href="#welcome-section">Home Page</a></li>
+        <li><a class="a-nav" href="#welcome-section">Information</a></li>
+        <li><a class="a-nav" href="#welcome-section">Poducts</a></li>
+        <li><a class="a-nav" href="#welcome-section">Satisfied Clients</a></li>
       </ul>
     </nav>
     <section id="sumerry">
-      <h2>Welcome to "Nutrition-E"</h2>
+      <img id="logo" src="C:\dev\MyWikiPage\photos\logoo.jpg" alt="logo" />
       <p>
-        you have come to the right place! We are going to help you achieve all
-        the physical goals you have set for yourself within a minimum amount of
-        time. We use the most advanced technological devices, the most unique
-        techniques, and a professional staff with years of experience.
+        You have come to the right place! This web-site contains all the
+        information and all the products necessary for a healthy life style. We
+        are going to help you achieve all the physical goals you have set for
+        yourself within a minimum amount of time.
       </p>
     </section>
     <hr />
@@ -43,12 +43,34 @@
     </section>
     <hr />
 
-    <footer id="contact">
+    <footer id="contact" class="flex-container">
       <h2>Please contact us for further information</h2>
-      <ul class="list">
-        <li><a href="http://">Github</a></li>
-        <li><a href="http://">E-mail</a></li>
-        <li><a href="http://">Code-pen</a></li>
+      <div class="flex-item">
+        <h4>Our office location</h4>
+        <iframe
+          id="location"
+          title="location"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"
+        >
+        </iframe>
+      </div>
+
+      <ul class="list flex-item">
+        <li>
+          <button class="btn-grad" onclick="document.location='default.asp'">
+            Github
+          </button>
+        </li>
+        <li>
+          <button class="btn-grad" onclick="document.location='default.asp'">
+            E-mail
+          </button>
+        </li>
+        <li>
+          <button class="btn-grad" onclick="document.location='default.asp'">
+            Code-pen
+          </button>
+        </li>
       </ul>
     </footer>
   </body>
