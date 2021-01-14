@@ -41,14 +41,50 @@
         <li><a href="http://"></a></li>
       </ul>
     </section>
+    <hr>
+    <section><form action="">
+<form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required="">
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+      <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age">
+    </div>
+    <div class="form-group">
+      <p>Which option best describes your goal?</p>
+      <select id="dropdown" name="role" class="form-control" required="">
+        <option disabled="" selected="" value="">Select your goal</option>
+        <option value="student">Loose Body Fat</option>
+        <option value="job">Grow Muscle</option>
+        <option value="learner">Get Lean</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    
+
+    
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+ </section>
     <hr />
-    <section id="contact">
+    <footer id="contact">
       <h2>Please contact us for further information</h2>
       <ul class="list">
         <li><a href="http://">Github</a></li>
         <li><a href="http://">E-mail</a></li>
         <li><a href="http://">Code-pen</a></li>
       </ul>
-    </section>
+    </footer>
+
   </body>
 </html>
