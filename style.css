@@ -31,6 +31,7 @@ nav {
   text-decoration: none;
   color: var(--main-white);
   padding: 2rem;
+     
 }
 #logo{
     border-radius: 50px;
@@ -51,7 +52,9 @@ nav {
 }
 .nav-list a:hover {
   background: #e3e4e8;
-  color: var(--main-gray);
+  color: var(--main-blue);
+  
+  
 }
 ul {
      list-style: none;
@@ -215,4 +218,12 @@ height: 315px;
  }
  .product-title{
      font-size: 30px;
+ }
+ .current {
+ 
+ 
+
+  background: #e3e4e8;
+  color: var(--main-blue);
+}
  }
