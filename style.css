@@ -195,7 +195,7 @@ ol {
     align-items: center;
     text-align: center;
     width: calc(100% /3);
-    margin: 2.5rem auto;
+    margin: 2.3rem auto;
     border: .1rem solid var(--main-blue);
     border-radius: 1.0rem;
     background-color: white;
@@ -224,7 +224,7 @@ height: 31.5rem;
      color: var(--main-blue);
  }
  .product-title{
-     font-size: 3.0rem;
+     font-size: 2.5rem;
  }
  .current {
  background:var(--main-white);
