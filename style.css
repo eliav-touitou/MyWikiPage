@@ -220,10 +220,10 @@ height: 315px;
      font-size: 30px;
  }
  .current {
- 
- 
-
-  background: #e3e4e8;
+ background: #e3e4e8;
   color: var(--main-blue);
 }
- }
+ .form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
