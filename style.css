@@ -6,7 +6,7 @@
 }
 body {
   font-family: "Palatino Linotype",serif;
-  font-size:1.5rem;
+  font-size:150%;
   color: var(--main-blue);
   text-align: center;
   background-color: var(--main-white);
@@ -17,7 +17,7 @@ body {
   box-sizing: border-box;
 }
 .first-section{
-    margin-top: 5rem;
+    margin-top:6.0%;
 }
 nav {
   display: flex;
