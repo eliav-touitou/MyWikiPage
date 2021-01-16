@@ -6,7 +6,7 @@
 }
 body {
   font-family: "Palatino Linotype",serif;
-  font-size: 22px;
+  font-size:1.5rem;
   color: var(--main-blue);
   text-align: center;
   background-color: var(--main-white);
@@ -17,7 +17,7 @@ body {
   box-sizing: border-box;
 }
 .first-section{
-    margin-top: 75px;
+    margin-top: 5rem;
 }
 nav {
   display: flex;
@@ -25,9 +25,9 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   background: var(--main-blue);
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
 .a-nav {
@@ -37,11 +37,11 @@ nav {
      
 }
 #logo{
-    border-radius: 50px;
-  border: 2px solid var(--main-white);
-  padding: 20px;
-  width: 400px;
-  height: 150px;
+    border-radius: 5.0rem;
+  border: .2rem solid var(--main-white);
+  padding: 2.0rem;
+  width: 40.0rem;
+  height: 15.0rem;
 }
 .nav-list {
   display: flex;
@@ -49,9 +49,9 @@ nav {
   list-style: none;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
+  margin-inline-start: .0rem;
+  margin-inline-end: .0rem;
+  padding-inline-start: 4.0rem;
 }
 .nav-list a:hover {
   background:var(--main-white);
@@ -111,19 +111,16 @@ ol {
   font-size: 2rem;
   font-weight: 200;
   color: var(--main-white);
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 5.0rem;
+  margin-right: 5.0rem;
 }
 
 
 #table {
-  display: flex;
+ 
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
-   font-size: 20px;
    padding-top: 0%;
    padding-bottom: 0%;
    color: inherit;
@@ -132,7 +129,7 @@ ol {
 .background-img
  {
     position:relative;
-    padding:0px;
+    padding:.0rem;
  width: 100%;
   height:100%;
     display:inline-block;
@@ -144,10 +141,10 @@ ol {
   position:absolute;
   width: 100%;
   height:100%;
-  top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
+  top: .0rem;
+      right: .0rem;
+      bottom: .0rem;
+      left: .0rem;
   z-index:-1;
   opacity:0.3;
   background-image: url("https://cdn-ami-drupal.heartyhosting.com/sites/muscleandfitness.com/files/styles/full_node_image_1090x614/public/media/Man-Pullup-Park-Blue-Skies.jpg?itok=5DdyMmfd");
@@ -166,15 +163,15 @@ ol {
     #e5e5be 51%,
     #003973 100%
   );
- margin: 10px;
-  padding: 15px 45px;
+ margin: 1.0rem;
+  padding: 1.5rem 4.5rem;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
+  box-shadow: 0 0 2.0rem #eee;
+  border-radius: 1.0rem;
   
 }
 
@@ -184,8 +181,8 @@ ol {
   text-decoration: none;
 }
 .product-image{
-    height: 100px;
-    width: 100px;
+    height: 10.0rem;
+    width: 10.0rem;
 }
 #store {
 
@@ -198,36 +195,36 @@ ol {
     align-items: center;
     text-align: center;
     width: calc(100% /3);
-    margin: 25px auto;
-    border: 1px solid var(--main-blue);
-    border-radius: 10px;
+    margin: 2.5rem auto;
+    border: .1rem solid var(--main-blue);
+    border-radius: 1.0rem;
     background-color: white;
 }
 
 }
 .product-title{
-    padding-top: 10px;
+    padding-top: 1.0rem;
 }
 .video {
-width: 560px;
-height: 315px;
+width: 56.0rem;
+height: 31.5rem;
 }
  .info-par{
-    border: 5px solid var(--main-blue);
-    border-radius: 10px;
+    border: .5rem solid var(--main-blue);
+    border-radius: 1.0rem;
 
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 
  }
  .info-par:hover{
-     font-size: 30px;
+     font-size: 2.0rem;
  }
  .info-title{
      color: var(--main-blue);
  }
  .product-title{
-     font-size: 30px;
+     font-size: 3.0rem;
  }
  .current {
  background:var(--main-white);
@@ -238,8 +235,8 @@ height: 315px;
     padding: 0.25rem;
   }
   .form-control{
- border-radius:10px;
+ border-radius:1.0rem;
      width: 60%;
-  padding:10px;
+  padding:1.0rem;
   
 }
