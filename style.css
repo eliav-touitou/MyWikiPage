@@ -81,14 +81,17 @@ ol {
     justify-content: center;
 }
    .contact-option{ display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     text-align: center;
-    width: 25%;
-    border: 3px solid var(--main-blue);
-    border-radius: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
+    
+    
+}
+#map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
 }
 
 #sumerry {
@@ -184,24 +187,23 @@ ol {
     height: 100px;
     width: 100px;
 }
+#store {
+
+    flex-direction: row;
+    justify-content: center; 
+}
 .product {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: calc(100% / 3);
+    width: calc(100% /3);
     margin: 25px auto;
     border: 1px solid var(--main-blue);
     border-radius: 10px;
     background-color: white;
 }
-#product-section{
-    background-image: linear-gradient(
-    to right,
-    #003973 0%,
-    #e5e5be 51%,
-    #003973 100%
-  );
+
 }
 .product-title{
     padding-top: 10px;
