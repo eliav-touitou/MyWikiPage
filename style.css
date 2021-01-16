@@ -75,7 +75,7 @@ ol {
      list-style: none;
 }
 #contact{
-    margin-top: 20px;
+   
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -85,9 +85,10 @@ ol {
     align-items: center;
     text-align: center;
     width: 25%;
-    margin: 30px;
-    border-radius: 50px;
-    background-color: var(--main-white);
+    border: 3px solid var(--main-blue);
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #sumerry {
@@ -176,7 +177,7 @@ ol {
 
 .btn-grad:hover {
   background-position: right center; 
-  color: var ( --main-white);
+  color: var(--main-white);
   text-decoration: none;
 }
 .product-image{
@@ -190,7 +191,7 @@ ol {
     text-align: center;
     width: calc(100% / 3);
     margin: 25px auto;
-    border: 1px solid var(--main-gray);
+    border: 1px solid var(--main-blue);
     border-radius: 10px;
     background-color: white;
 }
@@ -216,6 +217,9 @@ height: 315px;
     margin-top: 15px;
     margin-bottom: 15px;
 
+ }
+ .info-par:hover{
+     font-size: 30px;
  }
  .info-title{
      color: var(--main-blue);
