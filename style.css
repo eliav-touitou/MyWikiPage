@@ -181,8 +181,8 @@ ol {
   text-decoration: none;
 }
 .product-image{
-    height: 10.0rem;
-    width: 10.0rem;
+    height: 25vh;
+    width: 15vw;
 }
 #store {
 
@@ -195,19 +195,19 @@ ol {
     align-items: center;
     text-align: center;
     width: calc(100% /3);
-    margin: 2.3rem auto;
-    border: .1rem solid var(--main-blue);
-    border-radius: 1.0rem;
+    margin: 5% auto;
+    border: 1vh solid var(--main-blue);
+    border-radius: 5px;
     background-color: white;
 }
 
 }
 .product-title{
-    padding-top: 1.0rem;
+    padding-top: 5vh;
 }
 .video {
-width: 56.0rem;
-height: 31.5rem;
+width: 60vw;
+height: 40vh;
 }
  .info-par{
     border: .5rem solid var(--main-blue);
