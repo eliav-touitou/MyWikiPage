@@ -230,4 +230,10 @@ height: 315px;
  .form-group {
     margin: 0 auto 1.25rem auto;
     padding: 0.25rem;
+  }
+  .form-control{
+ border-radius:10px;
+     width: 60%;
+  padding:10px;
+  
 }
